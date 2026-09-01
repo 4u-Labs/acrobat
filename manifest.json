@@ -1,0 +1,17 @@
+{
+  "name": "Acrobat Pro — Editor de PDF 100% Privado",
+  "short_name": "Acrobat Pro",
+  "start_url": "index.php",
+  "display": "standalone",
+  "background_color": "#140608",
+  "theme_color": "#ef4444",
+  "description": "Edite, assine, grife e organize seus documentos PDF diretamente no seu navegador com retenção zero de dados.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
