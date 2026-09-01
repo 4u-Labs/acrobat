@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Acrobat Pro — Editor de PDF no Navegador",
+  "short_name": "Acrobat PDF",
+  "version": "1.0.0",
+  "description": "Edite, desenhe, grife e assine documentos PDF diretamente no seu navegador com privacidade 100% local.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Acrobat Pro PDF"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
