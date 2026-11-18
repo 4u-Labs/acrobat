@@ -16,10 +16,11 @@ $assetVersion = time();
     <meta name="theme-color" content="#ef4444">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Adobe+Clean:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        * { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; }
+        * { font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; }
+        html, body { overflow-x: hidden; max-width: 100%; }
         ::-webkit-scrollbar { width: 8px; height: 8px; }
         ::-webkit-scrollbar-track { background: #2a2a2a; }
         ::-webkit-scrollbar-thumb { background: #555; border-radius: 4px; }
@@ -296,7 +297,7 @@ $assetVersion = time();
             </div>
         </div>
         <div class="ml-auto flex items-center gap-2">
-            <img src="favicon.svg" class="w-4 h-4">
+            <img src="favicon.svg" width="16" height="16" style="width:16px;height:16px;" class="w-4 h-4 shrink-0">
             <span class="text-gray-300 text-xs font-semibold">Acrobat <span class="text-red-500">Pro</span></span>
         </div>
 
@@ -2051,8 +2052,8 @@ $assetVersion = time();
                     
                     // Create SVG with embedded image
                     const dataUrl = mergedCanvas.toDataURL('image/png');
-                    const svgContent = `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    const svgContent = '<' + '?xml version="1.0" encoding="UTF-8"?>\n' +
+`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
      width="${mergedCanvas.width}" height="${mergedCanvas.height}" viewBox="0 0 ${mergedCanvas.width} ${mergedCanvas.height}">
     <image width="${mergedCanvas.width}" height="${mergedCanvas.height}" xlink:href="${dataUrl}"/>
 </svg>`;
