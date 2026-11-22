@@ -8,9 +8,10 @@ $assetVersion = time();
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Acrobat Pro - Editor de PDF 100% Privado</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=20261120-2">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=20261120-2">
     <link rel="apple-touch-icon" href="favicon.svg">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#ef4444">
@@ -212,6 +213,20 @@ $assetVersion = time();
         .footer-a:hover { color: #ef4444; }
 
     </style>
+    <!-- 4U SEO & AEO Schema -->
+    <meta name="description" content="Leia, edite, anote, destaque, adicione textos e assinaturas em arquivos PDF direto no navegador com privacidade total, sem cadastro e 100% gratuito.">
+    <link rel="canonical" href="https://4u.ia.br/app/acrobat/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="4U.IA.BR — 4u-Labs">
+    <meta property="og:url" content="https://4u.ia.br/app/acrobat/">
+    <meta property="og:title" content="Acrobat Web — Editor e Leitor de PDF 100% Privado Online | 4U.IA.BR">
+    <meta property="og:description" content="Leia, edite, anote, destaque, adicione textos e assinaturas em arquivos PDF direto no navegador com privacidade total, sem cadastro e 100% gratuito.">
+    <meta property="og:image" content="https://4u.ia.br/loja/uploads/img-1795033632-4ab455bf.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Acrobat Web — Editor e Leitor de PDF 100% Privado Online | 4U.IA.BR">
+    <meta name="twitter:description" content="Leia, edite, anote, destaque, adicione textos e assinaturas em arquivos PDF direto no navegador com privacidade total, sem cadastro e 100% gratuito.">
+    <meta name="twitter:image" content="https://4u.ia.br/loja/uploads/img-1795033632-4ab455bf.webp">
+    <script type="application/ld+json" data-4u-seo="1">{"@context":"https://schema.org","@graph":[{"@type":"SoftwareApplication","name":"Acrobat Web","url":"https://4u.ia.br/app/acrobat/","image":"https://4u.ia.br/loja/uploads/img-1795033632-4ab455bf.webp","description":"Leia, edite, anote, destaque, adicione textos e assinaturas em arquivos PDF direto no navegador com privacidade total, sem cadastro e 100% gratuito.","applicationCategory":"BusinessApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript. HTML5.","inLanguage":["pt-BR","en"],"isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"BRL"},"featureList":["Leitura e anotação de PDFs offline/local","Inserção de texto, marcações e assinatura","Extensão Chrome complementar disponível","Zero envio de documentos para servidores externos"],"publisher":{"@type":"Organization","name":"4u-Labs","url":"https://4u.ia.br/"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O Acrobat Web é gratuito?","acceptedAnswer":{"@type":"Answer","text":"Sim, todas as ferramentas de leitura, anotação e edição básica de PDF são gratuitas e sem limite de arquivos."}},{"@type":"Question","name":"É seguro abrir documentos confidenciais no Acrobat Web?","acceptedAnswer":{"@type":"Answer","text":"Sim. O arquivo é processado exclusivamente na memória do seu navegador e não é enviado para nenhum servidor."}},{"@type":"Question","name":"Qual a diferença para o PDFácil e 4USign?","acceptedAnswer":{"@type":"Answer","text":"O Acrobat Web foca em leitura e edição visual direta da página; o PDFácil reúne ferramentas em lote e o 4USign permite assinatura digital compartilhada."}}]}]}</script>
 </head>
 <body class="bg-gray-900 text-white overflow-hidden h-screen flex flex-col">
     <!-- Top Menu Bar -->
@@ -2692,6 +2707,8 @@ $assetVersion = time();
         });
       }
     </script>
+
+    <script defer src="/assets/4ulabs-ecosystem.js?v=20261122" data-fouru-i18n="1"></script>
 </body>
 </html>
 
